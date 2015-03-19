@@ -12,6 +12,7 @@ The script looks for links in HTML pages :
 - A HREF
 - LINK HREF
 - SCRIPT SRC
+
 and checks the HTTP header code.
 
 Requirement
@@ -33,11 +34,13 @@ The following command line
 php 404.php http://www.example.com
 ```
 
-will produce
+will produce :
 
 ```bash
 time : 1s - file : 2/2 (100%) - HTTP codes : 200 (1) 302 (1) 
 ```
+
+Meaning that 2 files have been checked in 1 second, one file is "200 OK" and the other is "302 FOUND".  
 
 If a 404 code is found, the url and parents are displayed.  
 You can change the "config" part in the script `404.php`.  
