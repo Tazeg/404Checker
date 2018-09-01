@@ -44,4 +44,4 @@ Meaning that 2 files have been checked in 1 second, one file is "200 OK" and the
 
 If a 404 code is found, the url and parents are displayed.  
 You can change the "config" part in the script `404.php`.  
-This script is used on [404.repair](http://www.404.repair) so you can try it online.
+This script is used on [404.repair](https://404.jeffprod.com/) so you can try it online.
